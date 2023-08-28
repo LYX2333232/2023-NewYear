@@ -1,0 +1,171 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Alibaba PuHuiTi';
+    font-style: normal;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+}
+
+.page1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../res/images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+button,
+input {
+    border: 0;
+    outline: 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vw;
+    width: 100%;
+}
+
+.logo img {
+    width: 65%;
+}
+
+form {
+    margin-top: -5vw;
+    width: 80%;
+}
+
+.tel {
+    width: 100%;
+    display: flex;
+    background: #F3F3F3;
+    box-shadow: inset -7px -6px 11px -6px rgba(0, 0, 0, 0.15);
+    border-radius: 13px;
+    padding: 2vw;
+    padding-left: 5vw;
+}
+
+.tel #phone {
+    line-height: 1rem;
+    box-shadow: none;
+    padding: 0;
+    font-size: 1rem;
+}
+
+.tel .phone {
+    margin-right: 3vw;
+}
+
+.tel .phone img {
+    height: 100%;
+}
+
+.public {
+    width: 100%;
+}
+
+.label {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+}
+
+.select {
+    width: 100%;
+    display: flex;
+    background-color: #F3F3F3;
+    font-size: 1rem;
+    box-shadow: inset -7px -6px 11px -6px rgba(0, 0, 0, 0.15);
+    border-radius: 13px;
+    font-weight: 700;
+    padding: 2vw 0;
+}
+
+.left,
+.right {
+    display: flex;
+    align-items: center;
+}
+
+input[type="radio"] {
+    width: 6vw;
+    height: 6vw;
+    appearance: none;
+    background-color: #b7b7b7;
+    box-shadow: inset 0px -2px 5px 1px rgba(255, 254, 254, 0.45), inset -6px 4px 8px -2px rgba(207, 120, 248, 0.25);
+    border-radius: 2.5vw;
+    margin-right: 3vw;
+}
+
+input[type="radio"]:checked {
+    width: 6vw;
+    height: 6vw;
+    appearance: none;
+    background-image: url(../res/images/checked.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: normal;
+    box-shadow: inset 0px -2px 5px 1px rgba(255, 254, 254, 0.45), inset -6px 4px 8px -2px rgba(207, 120, 248, 0.25);
+    border-radius: 2.5vw;
+}
+
+textarea {
+    margin-top: 5vw;
+    width: 100%;
+    font-size: 1rem;
+    padding: 5vw;
+    background: #F3F3F3;
+    box-shadow: inset -7px -6px 11px -6px rgba(0, 0, 0, 0.15);
+    border-radius: 13px;
+}
+
+button {
+    margin: 3vw 0;
+    background-color: transparent;
+    width: 100%;
+}
+
+button img {
+    width: 100%;
+}
+
+.end {
+    width: 80%;
+    display: flex;
+}
+
+.end .left {
+    flex: 6;
+    margin-right: 2vw;
+}
+
+.end .right {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.end .right .ligu,
+.Twitter {
+    width: 100%;
+}
+
+.end img {
+    width: 100%;
+}
+
+.page2 img {
+    width: 100%;
+    height: 100%;
+}
